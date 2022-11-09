@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useState } from 'react';
-import uuid from './utilities/uuid';
+import uuid from '../utilities/uuid';
 
 //components
 import List from './components/List';
