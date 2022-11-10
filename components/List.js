@@ -3,7 +3,7 @@ export default function List({ toDoList }) {
     <ol>
       {toDoList.map(task => {
         return (
-          <li key={task.id}>
+          <li key={task._id}>
             {/* 👇checkbox and task text */}
             <div>
               <p>{task.text}</p>
